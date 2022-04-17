@@ -1,1 +1,2 @@
-alert("Hello");
+import { domController } from "./domController";
+domController();

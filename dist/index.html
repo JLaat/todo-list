@@ -4,12 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/style.css">
     <title>Document</title>
 </head>
 <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
-    <script src="main.js"></script>
+    <header>
+        <h1>Todo-List</h1>
+    </header>
+    <main>
+            <button class="addBtn">+</button>
+            <div class="myForm">
+                <h1>New Todo</h1>
+
+                <label for="title">Title</label>
+                <input type="text" name="title" id="title">
+
+                <label for="description">Description</label>
+                <input type="text" name="description" id="description">
+
+                <label for="title">Due Date</label>
+                <input type="text" name="dueDate" id="dueDate">
+
+                <label for="title">Priority (1-3)</label>
+                <input type="text" name="priority" id="priority">
+
+                <button type="submit" class="submitTodo">Submit</button>
+
+            </div>
+    </main>
+    <footer>
+        <h1>Developed by Joni Laatikainen</h1>
+    </footer>
+    <script src="/dist/main.js"></script>
 </body>
 </html>
